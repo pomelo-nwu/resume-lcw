@@ -1,0 +1,215 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "罗长伟 | 个人简历",
+  "name": "罗长伟",
+  "repo": "https://github.com/joyeecheung/resume.git",
+  "job_description": ["前端工程师","公益/骑行/"],
+  "contact": {
+    "phone": "13709147672",
+    "email": "czynwu@foxmail.com",
+    "wechat": {
+      "id": "xi_bei_da_xue_lcw",
+      "qrcode": "static/wechat.png"
+    },
+    "sinaweibo": {
+      "id": "我爱三号床",
+      "url": "http://weibo.com/u/2907180747"
+    },
+    "github": {
+      "id": "pomelo-nwu"
+    },
+    "blog": {
+      "url": "http://segmentfault.com/u/pomelo_nwu"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/joyeecheung/resume"
+
+  }, {
+    "type": "pdf",
+    "url": "static/pomelo.pdf"
+
+  }, {
+    "type": "impress",
+    "url": "http://www.pomelo.coding.io/"
+  }, {
+    "type": "SegmentFault",
+    "url": "http://segmentfault.com/u/pomelo_nwu"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "西北大学",
+    "major": "物联网工程",
+    "start": "2012",
+    "end": "2016",
+    "honor": [
+      "2012 - 2013 学年度校**单项奖学金**",
+      "2013 - 2014 学年度校**优秀班干部奖学金**",
+      "2013 - 2015 学年获**唐仲英德育奖学金**"
+    ]
+  }],
+    "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "大一排名",
+      "full": "54",
+      "score": "16"
+    }, {
+      "type": "大二排名",
+      "full": "54",
+      "score": "15"
+    }],
+    "description": [
+      "班级干部：班长",
+      "社团干部：唐仲英爱心社项目部部长",
+      "志愿者经历：2013.5-至今 : 唐仲英爱心社志愿者,每月会去周至县九峰中学参加”爱心手拉手”活动",
+      "公益经历：2013年,2014年 暑假 在九峰中学参加”暑假义务支教活动"
+    ]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "nodejs",
+    "start": "2015.4.25",
+    "end": "2015.5.10",
+    "name": "官方网站开发",
+    "description": [
+      "西北大学发展合作规划处",
+      "负责前端页面设计和实现，基于`bootstrap`快速开发",
+      "网站地址:  `http://ghc.nwu.edu.cn`"
+    ],
+    "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "start": "2014.12.24",
+    "end": "2015.4.3",
+    "name": "在线简历微软创新杯",
+    "description": [
+      "项目主旨：利用科技做公益，移动互联网公益技术解决方案",
+      "项目介绍：`http://pan.baidu.com/s/1c0HGAys`",
+      "项目源码：`http://yun.baidu.com/s/1ff6LS`"
+    ],
+    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "Resume",
+    "source": "https://github.com/pomelo-nwu/resume-pomelo",
+    "demo": "http://pomelo-nwu.github.io/resume-pomelo/",
+    "description": [
+      "在线简历浏览",
+      "使用`impress.js`，部署在`coding`和`GithubPage`上",
+      "项目演示：`http://pomelo-nwu.github.io/resume-pomelo/`"
+    ],
+    "stack": ["jade", "less", "gulp"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "爱情进行时",
+    "source": "http://tracy-love.coding.io",
+    "demo": "http://tracy-love.coding.io",
+    "description": [
+      "一个基于html5` canvas`的计时器",
+      "学习参照：慕课网；使用原生js驱动",
+      "项目演示：`http://tracy-love.coding.io`"
+    ],
+    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
+    "compatibility": "IE9+"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`进行SE0，能够用sass编译模块化的 `CSS`，完成响应式的布局",
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性",
+        "了解常见的浏览器**兼容性**问题及解决方案"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "熟悉 `ECMAScript`（`JavaScript`），关注javascript面向对象的程序设计",
+        "会用原生`javascript`写一些简单的`dom`操作与网页交互，关注 `ECMAScript` 的未来进展"
+      ]
+    }, {
+      "summary": "`DOM` / `BOM`",
+      "description": [
+        "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），能与后端工程完成 `AJAX` 数据交互的开发",
+        "对 `WebGL` / `Web Workers` / `WebSocket` /  等新 API 有一定的了解和暂时没有使用经验"
+      ]
+    }, {
+      "summary": "前端第三方库/框架",
+      "description": [
+        "使用 `Meteor` / `AngularJS` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
+        "熟悉 `jQuery`  / `Bootstrap` 的使用、定制与扩展, 阅读编译过bootstrap css源代码",
+        "熟悉 jade模板，能进行压缩混淆等常用代码管理方法"
+      ]
+    }, {
+      "summary": "前端工程实践",
+      "description": [
+        "在项目中使用过 `Sass` / `gulp` / `jade` 等模块化解决方案",
+        "在项目中使用过 `bootstrap` / `jQuery` 等前端快速开发框架",
+        "日常使用 `git` 进行版本控制与合作开发",
+        "使用 `Gulp` 改进工作流",
+        "使用`ubuntu`作为开发系统，使用`webstorm`和`sublime`作为开发工具",
+        "掌握基本的前端性能优化知识与技巧，并能在项目中加以实践"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`Node.js`",
+      "description": [
+        "能够使用 `Node.js API` 或 `Express` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "了解异步 `I/O `及事件驱动的服务器模型，了解常见的**异步编程**解决方案"
+        ] }, {
+      "summary": "其他",
+      "description": [
+        "使用 `nodejs` 搭建过简单的服务器",
+        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等网络协议"
+ 
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "2年 `ubuntu` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+      " 自学`cisco`组网技术，`ccna`水平，能够进行简单的网络故障排查与路由器配置",
+      "能够使用ps做简单的图像处理，能够用`AE`，`premiere`做简单的视频剪辑和制作"
+    ]
+  }, {
+    "type": "pomelo",
+    "item": [
+      "虽然前端学习只有不到半年的时间,但是兴趣是我最好的老师，慕课网,`EFE`,github,`segmentfault`这些都是我学习源源不断的知识泉水",
+      "热爱`骑行`，热爱`公益`，热爱`前端`，这就是我，一只梦想成为`全栈`工程师的（有情怀的）程序猿",
+      "希望得到您们的回复*^_^*"
+    ]
+  }
+
+  ],
+
+ "learn": [{
+    "type": "plan",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "学习的方向：前端自动化，前端模块化",
+        "研究的方向：HTML5`canvas`动画 ；移动端优先的响应式布局 ; `css4`规范；`webkit`"
+      ]
+    }, {
+      "summary": "`ECMAScript`",
+      "description": [
+        "学习的方向：`nodekit`,`ECMAScript6`新特性",
+        "研究的方向：`nodejs`,angular.js"
+      ]}
+
+    ]
+}]
+
+}

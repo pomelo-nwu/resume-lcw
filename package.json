@@ -1,0 +1,36 @@
+{
+  "name": "joyee-resume",
+  "version": "1.0.0",
+  "description": "Read resume data from a JSON file and generate a static web page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joyee Cheung <joyeec9h3@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyeecheung/resume.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-debug": "^2.0.1",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-jade": "^1.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-sourcemaps": "^1.5.2",
+    "st": "^0.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/joyeecheung/resume/issues"
+  },
+  "homepage": "https://github.com/joyeecheung/resume",
+  "keywords": [
+    "resume"
+  ]
+}
