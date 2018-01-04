@@ -1,20 +1,19 @@
 mixin phone(number)
   li.contact-phone&attributes(attributes)= number
+
 mixin email(addr)
   li.contact-email&attributes(attributes)
     a(href="mailto://" + addr)= addr
-
-mixin sinaweibo(data)
-  li.contact-sinaweibo&attributes(attributes)
-    a(href=data.url)= data.id
 
 mixin github(data)
   li.contact-github&attributes(attributes)
     a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
 
-mixin blog(data)
-  li.contact-blog&attributes(attributes)
-    a(href=data.url)= data.url
+mixin birthplace(data)
+  li.contact-birthplace&attributes(attributes)=data
+
+mixin birthday(data)
+    li.contact-birthday&attributes(attributes)= data
 
 mixin qrcode(data)
   img.qrcode-img(src=data.qrcode, alt=data.id)&attributes(attributes)
@@ -86,6 +85,9 @@ mixin experience_content_job(item)
   dt.experience-position= item.name + experience_type[item.type]
   each desc in item.description
     dd.experience-task!= highlight(desc)
+  each desc in item.honors
+    dd.education-proud!= highlight(desc)
+
 
 mixin experience_title_internship(item)
   +experience_title_job(item)

@@ -4,23 +4,18 @@
   "resume_title": "罗长伟 | 个人简历",
   "name": "罗长伟",
   "repo": "https://github.com/joyeecheung/resume.git",
-  "job_description": ["前端工程师","公益/骑行/"],
+  "job_description": ["前端工程师","公益/摄影"],
   "contact": {
     "phone": "13709147672",
-    "email": "czynwu@foxmail.com",
-    "wechat": {
-      "id": "xi_bei_da_xue_lcw",
-      "qrcode": "static/wechat.png"
-    },
-    "sinaweibo": {
-      "id": "我爱三号床",
-      "url": "http://weibo.com/u/2907180747"
-    },
+    "email": "czynwu@gmail.com",
+    "birthday": "1993年生,中共党员",
+    "birthplace": "籍贯陕西,现居深圳",
     "github": {
       "id": "pomelo-nwu"
     },
-    "blog": {
-      "url": "http://segmentfault.com/u/pomelo_nwu"
+    "wechat": {
+      "id": "xi_bei_da_xue_lcw",
+      "qrcode": "static/wechat.png"
     }
   },
   "links": [{
@@ -39,89 +34,68 @@
     "url": "http://segmentfault.com/u/pomelo_nwu"
   }],
   "education": [{
-    "type": "undergraduate",
     "name": "西北大学",
     "major": "物联网工程",
+    "type": "undergraduate",
     "start": "2012",
     "end": "2016",
+    "proud": "代表项目:SparkleLove--互联网微公益营销技术解决方案(http://pan.baidu.com/s/1c0HGAys)",
     "honor": [
-      "2012 - 2013 学年度校**单项奖学金**",
-      "2013 - 2014 学年度校**优秀班干部奖学金**",
-      "2013 - 2015 学年获**唐仲英德育奖学金**"
-    ]
-  }],
-    "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "大一排名",
-      "full": "54",
-      "score": "16"
-    }, {
-      "type": "大二排名",
-      "full": "54",
-      "score": "15"
-    }],
-    "description": [
-      "班级干部：班长",
-      "社团干部：唐仲英爱心社项目部部长",
-      "志愿者经历：2013.5-至今 : 唐仲英爱心社志愿者,每月会去周至县九峰中学参加”爱心手拉手”活动",
-      "公益经历：2013年,2014年 暑假 在九峰中学参加”暑假义务支教活动"
+      "所获荣誉:优秀班干部,唐仲英德育奖学金"
     ]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "nodejs",
-    "start": "2015.4.25",
-    "end": "2015.5.10",
-    "name": "官方网站开发",
+    "start": "2016.2.22",
+    "end": "2016.4.22",
+    "place":"平安科技(深圳)有限公司",
+    "name": "云平台事业部",
     "description": [
-      "西北大学发展合作规划处",
-      "负责前端页面设计和实现，基于`bootstrap`快速开发",
-      "网站地址:  `http://ghc.nwu.edu.cn`"
+      "参与前端框架的选型,推动前后端分离开发,从jsp转向`angularJs@1.3`",
+      "引入`gulp`工作流,`sass`预处理器,提高开发效率",
+      "负责编写`pay.css`前端css库"
     ],
+    "honors":[],
+    "growth":["1...."],
     "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
   }, {
-    "type": "internship",
+    "type": "job",
     "techtype": "frontend",
-    "start": "2014.12.24",
-    "end": "2015.4.3",
-    "name": "在线简历微软创新杯",
+    "place":"平安科技(深圳)有限公司",
+    "start": "2016.7.15",
+    "end": "至今",
+    "name": "云平台事业部",
     "description": [
-      "项目主旨：利用科技做公益，移动互联网公益技术解决方案",
-      "项目介绍：`http://pan.baidu.com/s/1c0HGAys`",
-      "项目源码：`http://yun.baidu.com/s/1ff6LS`"
+      "参与平安公有云`前端框架`的构建",
+      "参与公有云产品的`研发`,维护上线产品的稳定`迭代`",
+      "参与构建平安云`开发规范`和设计规范",
+      "负责构建`分布式前端`框架`DPay.js`以及相对应的开发工具和模版",
+      "负责对接其`跨部门云产品`接入控制台,帮助他们分离开发,`独立部署`",
+      "负责构建基于设计规范的React组件`PAYUI`"
     ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
+    "growth":["1...."],
+    "honors": ["参与组织PayTeam前端团队,`PayTalk`周五分享会","2017平安科技运营领域`最佳新人`"],
+    "stack":[],
     "compatibility": "IE8+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "Resume",
-    "source": "https://github.com/pomelo-nwu/resume-pomelo",
-    "demo": "http://pomelo-nwu.github.io/resume-pomelo/",
-    "description": [
-      "在线简历浏览",
-      "使用`impress.js`，部署在`coding`和`GithubPage`上",
-      "项目演示：`http://pomelo-nwu.github.io/resume-pomelo/`"
-    ],
-    "stack": ["jade", "less", "gulp"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "爱情进行时",
-    "source": "http://tracy-love.coding.io",
-    "demo": "http://tracy-love.coding.io",
-    "description": [
-      "一个基于html5` canvas`的计时器",
-      "学习参照：慕课网；使用原生js驱动",
-      "项目演示：`http://tracy-love.coding.io`"
-    ],
-    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
-    "compatibility": "IE9+"
   }],
+  "learn": [{
+    "type": "plan",
+    "item": [{
+      "summary": "`PWA` / `WebAssembly`",
+      "description": [
+        "之前的两年前端经验都在PC端,`PWA`在移动web端的用户体验是我想去学习的",
+        "`WebAssembly`与javascript的协同工作,未来无限看好"
+      ]
+    }, {
+      "summary": "`数据可视化`",
+      "description": [
+        "随着更多的技术融入日常生活,前端需要更多的`交互和数据展示`方式",
+        "希望今后能多实践WebGL,Canvas,`SVG`等可视化技术"
+      ]}
+
+    ]
+}],
   "skills": [{
     "type": "frontend",
     "item": [{
@@ -192,24 +166,6 @@
     ]
   }
 
-  ],
-
- "learn": [{
-    "type": "plan",
-    "item": [{
-      "summary": "`HTML` / `CSS`",
-      "description": [
-        "学习的方向：前端自动化，前端模块化",
-        "研究的方向：HTML5`canvas`动画 ；移动端优先的响应式布局 ; `css4`规范；`webkit`"
-      ]
-    }, {
-      "summary": "`ECMAScript`",
-      "description": [
-        "学习的方向：`nodekit`,`ECMAScript6`新特性",
-        "研究的方向：`nodejs`,angular.js"
-      ]}
-
-    ]
-}]
+  ]
 
 }

@@ -16,18 +16,17 @@ block header
       h2= job_description.join("/")
     address
       ul.contact
+        +birthday(contact.birthday)
+        +birthplace(contact.birthplace)
         +phone(contact.phone)
         +email(contact.email)
         +github(contact.github)
-        +blog(contact.blog)
-        +sinaweibo(contact.sinaweibo)
         +responsive("wechat", contact.wechat, "visible-lt-sm")
 
 block content
   article.content.row
     article.column-6.first.column
       block education
-      block language
       block experience
       block learn
     article.column-6.last.column
