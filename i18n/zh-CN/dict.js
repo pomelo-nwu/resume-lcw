@@ -7,6 +7,7 @@ module.exports = {
         "frontend": "Web 前端",
         "backend": "Web 后端",
         "miscellaneous": "其他",
+        "plan":"学习计划",
         "pomelo":"自我评价"
     },
     learn_type:{

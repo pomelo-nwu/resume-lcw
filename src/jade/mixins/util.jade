@@ -76,6 +76,11 @@ mixin skills_pomelo(item)
       each desc in item.item
         li.skills-item-description
           span!= highlight(desc)
+mixin skills_plan(item)
+    ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
 
 mixin experience_title_job(item)
   span.experience-place= item.place
