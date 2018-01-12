@@ -7,12 +7,16 @@ var st = require('st');
 
 /******************* Jade to html ***********/
 function getLocals() {
-  var resumeData = require('./resume.json');
+  if(require.cache[require.resolve('./resume.json')]) {
+      delete require.cache[require.resolve('./resume.json')]
+  };
+  var resumeData = require('./resume.json'); //每次都从缓存里拿
   var locals = require('./i18n/' +
                        resumeData.data_lang + '/dict.js');
   for (var item in resumeData) {
     locals[item] = resumeData[item];
   }
+  console.log('locals',locals['job_description'],resumeData['job_description'])
 
   locals.highlight = function highlight(str) {
     return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -91,8 +95,8 @@ function server(done) {
       index: 'index.html',
       cache: false
     })
-  ).listen(8000, done);
-  console.log("preview listening on http://localhost:8000");
+  ).listen(7777, done);
+  console.log("preview listening on http://localhost:7777");
 }
 
 gulp.task('server', ['build'], server);

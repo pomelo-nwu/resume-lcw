@@ -1,16 +1,17 @@
 {
-  "name": "joyee-resume",
-  "version": "1.0.0",
+  "name": "lcw-resume",
+  "version": "1.1.0",
   "description": "Read resume data from a JSON file and generate a static web page.",
   "main": "gulpfile.js",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joyee Cheung <joyeec9h3@gmail.com>",
+  "author": "luochangwei <czynwu@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joyeecheung/resume.git"
+    "url": "git@github.com:pomelo-nwu/resume-lcw.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -26,10 +27,6 @@
     "gulp-sourcemaps": "^1.5.2",
     "st": "^0.5.4"
   },
-  "bugs": {
-    "url": "https://github.com/joyeecheung/resume/issues"
-  },
-  "homepage": "https://github.com/joyeecheung/resume",
   "keywords": [
     "resume"
   ]

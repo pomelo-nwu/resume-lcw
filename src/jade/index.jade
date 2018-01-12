@@ -1,25 +1,6 @@
 extends ./layout/resume-layout.jade
 include ./mixins/util.jade
 
-block education
-  +section("education", true)
-    each item in education
-      li.timeline-item(class="education-" + item.type)
-        h3.timeline-title
-          time.education-time #{item.start} ~ #{item.end}
-        dl.education-description.timeline-content
-          dt.education-name= item.name
-          dd.education-major= item.major + education_type[item.type]
-          each honor in item.honor
-            dd.education-honor!= highlight(honor)
-
-block language
-  +section("language", false)
-    each lang in language
-      +certificate(lang.certificate)
-      ul.language-description
-        each desc in lang.description
-          li.language-desc-item= desc
 
 
 block experience
@@ -30,6 +11,19 @@ block experience
           +#{"experience_title_" + item.type}(item)
         dl.experience-description.timeline-content
           +#{"experience_content_" + item.type}(item)
+          
+block education
+  +section("education", true)
+    each item in education
+      li.timeline-item(class="education-" + item.type)
+        h3.timeline-title
+          time.education-time #{item.start} ~ #{item.end}
+        dl.education-description.timeline-content
+          dt.education-name= item.name
+          dd.education-major!= highlight(item.major) + education_type[item.type]
+          each honor in item.honor
+            dd.education-honor!= highlight(honor)
+          dd.education-proud!= highlight(item.proud)
 
 block skills
   +section("skills", true)
@@ -39,14 +33,6 @@ block skills
           span.skills-type= skill_type[item.type]
         +#{"skills_" + item.type}(item)
 
-block learn
-  +section("learn", true)
-    each item in learn
-      li.timeline-item(class="skills-" + item.type)
-        h3.timeline-title
-          span.skills-type= learn_type[item.type]
-        +#{"learn_" + item.type}(item)
-
 block links
     ul.links
       each link in links
@@ -55,5 +41,5 @@ block links
 
 block repo
   p
-    | thank for 秋怡女神～This resume is generated with Gulp, Less and Jade by 
+    | thank for Joyee Cheung , This resume is generated with Gulp, Less and Jade by 
     | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].
